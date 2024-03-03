@@ -30,7 +30,7 @@ body {
 }
 
 body * {
-  font-family: "Inter", sans-serif;
+  font-family: "Kanit", sans-serif;
   color: var(--text-color);
 }
 
@@ -100,7 +100,19 @@ ul {
   flex-direction: column;
   gap: 16px;
   padding: 24px 0;
+  width: 60%;
+  margin: 0 auto;
 }
+
+#about {
+  justify-content: center;
+  display: flex;
+}
+
+ul li {
+  width: 100%;
+}
+
 ul li a {
   justify-content: center;
   display: flex;
