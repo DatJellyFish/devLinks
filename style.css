@@ -6,7 +6,7 @@
 
 :root {
   --text-color: white;
-  --bg-url: url(./assets/assets/bg-mobile.jpg);
+  --bg-url: url(./assets/assets/bg-narute-sundown.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.1);
   --surface-color-hover: rgba(255, 255, 255, 0.05);
@@ -16,7 +16,7 @@
 
 .light {
   --text-color: black;
-  --bg-url: url(./assets/assets/bg-mobile-light.jpg);
+  --bg-url: url(./assets/assets/bg-nature.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -160,6 +160,11 @@ footer {
   text-decoration: none;
 }
 
+#aboutme {
+  text-align: center;
+  font-size: 14px;
+}
+
 p a {
   text-decoration: none;
 }
@@ -168,11 +173,11 @@ p a {
 
 @media (min-width: 700px) {
   :root {
-    --bg-url: url(./assets/assets/bg-desktop.jpg);
+    --bg-url: url(./assets/assets/bg-narute-sundown.jpg);
   }
 
   .light {
-    --bg-url: url(./assets/assets/bg-desktop-light.jpg);
+    --bg-url: url(./assets/assets/bg-nature.jpg);
   }
 }
 
