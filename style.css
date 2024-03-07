@@ -174,10 +174,14 @@ p a {
 @media (min-width: 700px) {
   :root {
     --bg-url: url(./assets/assets/bg-narute-sundown.jpg);
+    background-size: contain;
+    background-position: center center;
   }
 
   .light {
     --bg-url: url(./assets/assets/bg-nature.jpg);
+    background-size: contain;
+    background-position: center center;
   }
 }
 
